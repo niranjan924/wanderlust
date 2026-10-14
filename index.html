@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanderlust — Discover Your Next Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">◈</span> Wanderlust
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#stats">About</a></li>
+        <li><a href="#contact" class="nav-cta">Plan Your Trip</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <header id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Explore the Extraordinary</p>
+        <h1 class="hero-title">
+          The world is waiting<br />for your story
+        </h1>
+        <p class="hero-subtitle">
+          Handcrafted journeys to the planet's most breathtaking places.
+          From misty mountain peaks to crystal-clear waters — your adventure begins here.
+        </p>
+        <div class="hero-actions">
+          <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
+          <a href="#experiences" class="btn btn-ghost">Browse Experiences</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+      </div>
+    </header>
+
+    <!-- ===================== DESTINATIONS ===================== -->
+    <section id="destinations" class="destinations">
+      <div class="section-header">
+        <p class="section-eyebrow">Where to go</p>
+        <h2 class="section-title">Featured Destinations</h2>
+        <p class="section-desc">
+          Four corners of the globe, each with its own rhythm, flavor, and wonder.
+          Choose your next chapter.
+        </p>
+      </div>
+
+      <div class="destinations-grid">
+        <article class="destination-card tall">
+          <img
+            src="https://images.pexels.com/photos/3098647/pexels-photo-3098647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="A lone hiker explores a scenic mountain valley"
+            loading="lazy"
+          />
+          <div class="destination-info">
+            <h3>Swiss Alps</h3>
+            <p>High-altitude trails, alpine lakes, and mountain villages straight out of a storybook.</p>
+            <span class="destination-tag">Mountains · Hiking</span>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="https://images.pexels.com/photos/29901885/pexels-photo-29901885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Aerial view of a tropical beach with palm trees and turquoise water"
+            loading="lazy"
+          />
+          <div class="destination-info">
+            <h3>Maldives</h3>
+            <p>Pristine white sands and turquoise lagoons in the Indian Ocean's most idyllic atolls.</p>
+            <span class="destination-tag">Beaches · Diving</span>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="https://images.pexels.com/photos/35369399/pexels-photo-35369399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Fisherman's Bastion and Matthias Church in Budapest"
+            loading="lazy"
+          />
+          <div class="destination-info">
+            <h3>Budapest</h3>
+            <p>Gothic spires, thermal baths, and riverside cafés in the heart of old Europe.</p>
+            <span class="destination-tag">City · Culture</span>
+          </div>
+        </article>
+
+        <article class="destination-card wide">
+          <img
+            src="https://images.pexels.com/photos/28237726/pexels-photo-28237726.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Aurora Borealis illuminating the night sky in Norway"
+            loading="lazy"
+          />
+          <div class="destination-info">
+            <h3>Northern Lights · Norway</h3>
+            <p>Chase the aurora across Arctic landscapes under a sky painted in green and violet.</p>
+            <span class="destination-tag">Arctic · Natural Wonder</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCES ===================== -->
+    <section id="experiences" class="experiences">
+      <div class="section-header">
+        <p class="section-eyebrow">What you'll do</p>
+        <h2 class="section-title">Unforgettable Experiences</h2>
+        <p class="section-desc">
+          Every trip is built around moments that stay with you long after you return home.
+        </p>
+      </div>
+
+      <div class="experiences-grid">
+        <div class="experience-card">
+          <div class="experience-icon">🏔️</div>
+          <h3>Mountain Trekking</h3>
+          <p>Multi-day guided hikes through the world's most spectacular mountain ranges, with expert local guides.</p>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">🏝️</div>
+          <h3>Island Hopping</h3>
+          <p>Skip between tropical islands by boat, snorkel coral reefs, and unwind on hidden beaches.</p>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">🏛️</div>
+          <h3>Cultural Tours</h3>
+          <p>Walk through ancient cities, taste regional cuisine, and learn from locals who call these places home.</p>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">🌌</div>
+          <h3>Aurora Chasing</h3>
+          <p>Venture above the Arctic Circle to witness the Northern Lights at their most vivid and active.</p>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">🧭</div>
+          <h3>Off-the-Grid</h3>
+          <p>Disconnect and explore remote wilderness areas where the night sky is truly dark and star-filled.</p>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">🚂</div>
+          <h3>Scenic Rail Journeys</h3>
+          <p>Glide through dramatic landscapes on some of the world's most beautiful train routes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS / ABOUT ===================== -->
+    <section id="stats" class="stats">
+      <div class="stats-overlay"></div>
+      <div class="stats-content">
+        <div class="stat-item">
+          <span class="stat-number">120+</span>
+          <span class="stat-label">Countries Visited</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">15K</span>
+          <span class="stat-label">Happy Travelers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">850</span>
+          <span class="stat-label">Curated Routes</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">12 yrs</span>
+          <span class="stat-label">Creating Memories</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA / CONTACT ===================== -->
+    <section id="contact" class="cta">
+      <div class="cta-box">
+        <h2>Ready to pack your bags?</h2>
+        <p>Tell us where you've always dreamed of going, and we'll craft a journey that's uniquely yours.</p>
+        <a href="mailto:hello@wanderlust.example" class="btn btn-primary btn-lg">Start Planning</a>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-icon">◈</span> Wanderlust
+          </a>
+          <p>Crafting extraordinary journeys since 2013. Travel deeper, travel better.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#stats">About Us</a></li>
+            <li><a href="#contact">Plan a Trip</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#home">Help Center</a></li>
+            <li><a href="#home">Travel Insurance</a></li>
+            <li><a href="#home">FAQ</a></li>
+            <li><a href="#home">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#home">Instagram</a></li>
+            <li><a href="#home">YouTube</a></li>
+            <li><a href="#home">Pinterest</a></li>
+            <li><a href="#home">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Wanderlust. All rights reserved. · Photos by Pexels</p>
+      </div>
+    </footer>
+  </body>
+</html>
